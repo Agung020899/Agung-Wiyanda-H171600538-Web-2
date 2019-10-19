@@ -13,8 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    KAMU SUDAH MASUKKAN DATA-MU
+                     
                 </div>
             </div>
         </div>

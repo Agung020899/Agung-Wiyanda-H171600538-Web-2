@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    DANI WAHYUDI
+                    Agung Wiyanda
                 </div>
 
                 <div class="links">

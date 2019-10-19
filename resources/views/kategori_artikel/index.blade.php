@@ -25,10 +25,10 @@
 	<td>{!! $item->updated_at!!}</td>
 	<td>{!! $item->created_at!!}</td>
 	<td>
-		<a href="{!! route('kategori_artikel.show',[$item->id])!!}" class="btn btn-sm btn-success">lihat </a>
-		<a href="{!! route('kategori_artikel.edit',[$item->id])!!}" class="btn btn-sm btn-danger">ubah</a>
+		<a href="{!! route('kategori_artikel.show',[$item->id])!!}" class="btn btn-sm btn-dark">lihat </a>
+		<a href="{!! route('kategori_artikel.edit',[$item->id])!!}" class="btn btn-sm btn-primary">ubah</a>
 		{!! Form::open(['route'=>['kategori_artikel.destroy',$item->id],'method'=>'delete']) !!}
-		{!! Form::submit('Hapus',['class'=>"btn btn-sm btn-warning"]); !!}
+		{!! Form::submit('Hapus',['class'=>"btn btn-sm btn-danger"]); !!}
 		{!! Form::close() !!}
 	</td>
 </tr>

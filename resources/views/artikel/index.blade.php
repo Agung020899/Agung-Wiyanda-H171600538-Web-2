@@ -22,10 +22,10 @@
 	<td>{!! $item->isi !!}</td>
 	<td>{!! $item->users_id !!}</td>
 	<td>
-		<a href="{!! route('artikel.show',[$item->id])!!}" class="btn btn-sm btn-success">lihat </a>
-		<a href="{!! route('artikel.edit',[$item->id])!!}" class="btn btn-sm btn-danger">ubah</a>
+		<a href="{!! route('artikel.show',[$item->id])!!}" class="btn btn-sm btn-dark">lihat </a>
+		<a href="{!! route('artikel.edit',[$item->id])!!}" class="btn btn-sm btn-primary">ubah</a>
 		{!! Form::open(['route'=>['artikel.destroy',$item->id],'method'=>'delete']) !!}
-		{!! Form::submit('Hapus',['class'=>"btn btn-sm btn-warning"]); !!}
+		{!! Form::submit('Hapus',['class'=>"btn btn-sm btn-danger"]); !!}
 		{!! Form::close() !!}
 		</td>
 </tr>
